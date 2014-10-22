@@ -16,3 +16,20 @@ Playing around with Rapiro
   ```
 - Get started with [Cylon.js](http://cylonjs.com/)
 - Get started with [Rapiro with Cylon.js](http://cylonjs.com/documentation/platforms/rapiro/)
+
+## Make Rapiro walk!
+
+- SSH into Raspberry Pi
+- Get sample code from [hybridgroup/cylon-rapiro](https://github.com/hybridgroup/cylon-rapiro)
+- Change '/dev/ttyUSB0' to '/dev/ttyAMA0' (use [Gort](http://gort.io/) to be sure)
+- Run the sample code `$ node sample.js`
+- If you get the error `Serialport not open`, just wait. It disappeared in my case :)
+- Rapiro will walk!
+- TODO: Our Rapiro doesn't stop...
+  ```
+  TypeError: undefined is not a function
+      at Driver.halt (/home/pi/rapiro/node_modules/cylon-rapiro/lib/driver.js:33:3)
+      at Device.halt (/home/pi/rapiro/node_modules/cylon/lib/device.js:85:15)
+      at null._onTimeout (/home/pi/rapiro/rapiro.js:21:17)
+      at Timer.listOnTimeout [as ontimeout] (timers.js:110:15)
+  ```
