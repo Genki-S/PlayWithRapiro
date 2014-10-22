@@ -33,3 +33,8 @@ Playing around with Rapiro
       at null._onTimeout (/home/pi/rapiro/rapiro.js:21:17)
       at Timer.listOnTimeout [as ontimeout] (timers.js:110:15)
   ```
+
+## Trouble Shooting
+- Servo motor cannot return initial position when Rapiro turns on
+  - Check the battery fully charged
+  
