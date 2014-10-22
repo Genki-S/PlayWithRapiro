@@ -1,0 +1,26 @@
+{
+  "name": "PlayWithRapiro",
+  "version": "1.0.0",
+  "description": "play with Rapiro",
+  "main": "rapiro.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Genki-S/PlayWithRapiro"
+  },
+  "keywords": [
+    "Rapiro"
+  ],
+  "author": "POISON",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Genki-S/PlayWithRapiro/issues"
+  },
+  "homepage": "https://github.com/Genki-S/PlayWithRapiro",
+  "dependencies": {
+    "cylon": "^0.19.1",
+    "cylon-rapiro": "^0.8.0"
+  }
+}
