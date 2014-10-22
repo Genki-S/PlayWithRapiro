@@ -17,6 +17,10 @@ Playing around with Rapiro
 - Get started with [Cylon.js](http://cylonjs.com/)
 - Get started with [Rapiro with Cylon.js](http://cylonjs.com/documentation/platforms/rapiro/)
 
+## Configure Wireless Network on Raspberry Pi
+
+- Follow instruction here (Japanese): [Raspberry Piを無線LAN化 - ぱせらんメモ](http://d.hatena.ne.jp/pasela/20121224/raspi_wlan)
+
 ## Make Rapiro walk!
 
 - SSH into Raspberry Pi
