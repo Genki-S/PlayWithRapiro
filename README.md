@@ -37,3 +37,5 @@ Playing around with Rapiro
 - Can't connect SSH into Raspberry Pi
   - Have you connected soon from Raspberry Pi turned on? Please wait abont 1 minute.
   
+## API
+See [here](http://cylonjs.com/documentation/drivers/rapiro/).
