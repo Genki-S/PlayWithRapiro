@@ -16,6 +16,7 @@ Playing around with Rapiro
   ```
 - Get started with [Cylon.js](http://cylonjs.com/)
 - Get started with [Rapiro with Cylon.js](http://cylonjs.com/documentation/platforms/rapiro/)
+- Buy [ACAdapter](http://wiki.rapiro.com/page/ac-adaptor_ja/)
 
 ## Configure Wireless Network on Raspberry Pi
 
