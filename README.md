@@ -33,5 +33,9 @@ Playing around with Rapiro
 
 ## Trouble Shooting
 - Servo motor cannot return initial position when Rapiro turns on
-  - Check the battery fully charged
+  - Check the battery fully charged.
+- Can't connect SSH into Raspberry Pi
+  - Have you connected soon from Raspberry Pi turned on? Please wait abont 1 minute.
   
+## API
+See [here](http://cylonjs.com/documentation/drivers/rapiro/).
