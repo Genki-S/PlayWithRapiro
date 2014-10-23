@@ -16,6 +16,7 @@ Playing around with Rapiro
   ```
 - Get started with [Cylon.js](http://cylonjs.com/)
 - Get started with [Rapiro with Cylon.js](http://cylonjs.com/documentation/platforms/rapiro/)
+- Buy [ACAdapter](http://wiki.rapiro.com/page/ac-adaptor_ja/)
 
 ## Configure Wireless Network on Raspberry Pi
 
@@ -29,14 +30,6 @@ Playing around with Rapiro
 - Run the sample code `$ node sample.js`
 - If you get the error `Serialport not open`, just wait. It disappeared in my case :)
 - Rapiro will walk!
-- TODO: Our Rapiro doesn't stop...
-  ```
-  TypeError: undefined is not a function
-      at Driver.halt (/home/pi/rapiro/node_modules/cylon-rapiro/lib/driver.js:33:3)
-      at Device.halt (/home/pi/rapiro/node_modules/cylon/lib/device.js:85:15)
-      at null._onTimeout (/home/pi/rapiro/rapiro.js:21:17)
-      at Timer.listOnTimeout [as ontimeout] (timers.js:110:15)
-  ```
 
 ## Trouble Shooting
 - Servo motor cannot return initial position when Rapiro turns on
