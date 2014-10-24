@@ -39,3 +39,16 @@ Playing around with Rapiro
   
 ## API
 See [here](http://cylonjs.com/documentation/drivers/rapiro/).
+
+## Setup
+
+### Rapiro
+
+- SSH into Raspberry Pi
+- in `rapiro` directory, run `$ node rapiro.js`
+
+### User
+
+- Use [Zsh](http://www.zsh.org/)
+- Source [`setup.zsh`](https://github.com/Genki-S/PlayWithRapiro/blob/master/user/setup.zsh)
+- Play around with some commands

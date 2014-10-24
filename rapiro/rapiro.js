@@ -1,4 +1,5 @@
 var Cylon = require('cylon');
+var server = require('./server');
 
 // Initialize the robot
 Cylon.robot({
@@ -23,3 +24,6 @@ Cylon.robot({
 
   }
 }).start();
+
+// Start the server
+server.start();
