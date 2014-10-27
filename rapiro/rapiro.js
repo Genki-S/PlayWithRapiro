@@ -7,19 +7,25 @@ Cylon.robot({
   device: {name: 'rapiro', driver: 'rapiro'},
 
   work: function(my) {
-    my['doneWalking'] = false ;
-
-    console.log("forward");
+    my['halt'] = false;
+    my['failureCount'] = 0;
 
     every(1..second(), function() {
-      if (my['doneWalking'] == false) {
-        my.rapiro.forward();
+      if (my['halt']) {
+        return;
+      }
+
+      if (my['failureCount'] < server.getRequestCount()) {
+        my['failureCount'] = server.getRequestCount()
+        my.rapiro.unhappy();
+      } else {
+        my.rapiro.stop();
       }
     });
-    after(10..seconds(), function() {
+    after(30..seconds(), function() {
       console.log("halt");
       my.rapiro.stop();
-      my['doneWalking'] = true;
+      my['halt'] = true;
     });
 
   }
