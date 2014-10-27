@@ -4,7 +4,7 @@
 autoload -Uz add-zsh-hook
 
 # Environment variables
-PWRAPIRO_SERVER_HOST="http://localhost:8080"
+PWRAPIRO_SERVER_HOST="http://192.168.1.239:8888"
 
 # Hooks
 function _pwrapiro_post_command_failure() {
