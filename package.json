@@ -1,0 +1,28 @@
+{
+  "name": "PlayWithRapiro",
+  "version": "1.0.0",
+  "description": "play with rapiro",
+  "main": "rapiro/rapiro.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.8.9",
+    "gulp-util": "^3.0.1",
+    "rsyncwrapper": "^0.4.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Genki-S/PlayWithRapiro"
+  },
+  "keywords": [
+    "Rapiro"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Genki-S/PlayWithRapiro/issues"
+  },
+  "homepage": "https://github.com/Genki-S/PlayWithRapiro"
+}
