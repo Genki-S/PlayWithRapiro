@@ -36,6 +36,27 @@ Playing around with Rapiro
   - Check the battery fully charged.
 - Can't connect SSH into Raspberry Pi
   - Have you connected soon from Raspberry Pi turned on? Please wait abont 1 minute.
-  
+
 ## API
 See [here](http://cylonjs.com/documentation/drivers/rapiro/).
+
+## Setup
+
+### Rapiro
+
+- SSH into Raspberry Pi
+- in `rapiro` directory, run `$ node rapiro.js`
+
+### User
+
+- Use [Zsh](http://www.zsh.org/)
+- Source [`setup.zsh`](https://github.com/Genki-S/PlayWithRapiro/blob/master/user/setup.zsh)
+- Play around with some commands
+
+## Development
+
+### Deploy
+
+- SSH innto Raspberry Pi
+- Add your ssh public key to `~/.ssh/authorized_keys`
+- From your host in project directory, `$ gulp rsync`
