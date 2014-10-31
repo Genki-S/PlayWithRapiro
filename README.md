@@ -8,6 +8,11 @@ Playing around with Rapiro
 - Buy [Rapiro](http://www.rapiro.com/)
 - Buy [Raspberry Pi Model B](http://www.raspberrypi.org/products/model-b/)
 - Install [Raspbian](http://www.raspbian.org/)
+- apt-get update and upgrade(optional)
+  ```
+  apt-get update
+  apt-get upgrade
+  ```
 - Install node and npm on Raspberry Pi
   ref: [Install Node on the Raspberry Pi in 5 minutes](http://joshondesign.com/2013/10/23/noderpi) (might be a little out of date)
   ```
@@ -37,7 +42,7 @@ Playing around with Rapiro
 - Can't connect SSH into Raspberry Pi
   - Have you connected soon from Raspberry Pi turned on? Please wait abont 1 minute.
 
-## API
+## Reference
 See [here](http://cylonjs.com/documentation/drivers/rapiro/).
 
 ## Setup
@@ -50,7 +55,7 @@ See [here](http://cylonjs.com/documentation/drivers/rapiro/).
 ### User
 
 - Use [Zsh](http://www.zsh.org/)
-- Source [`setup.zsh`](https://github.com/Genki-S/PlayWithRapiro/blob/master/user/setup.zsh)
+- Source [`setup.zsh`](user/setup.zsh)
 - Play around with some commands
 
 ## Development
@@ -60,3 +65,9 @@ See [here](http://cylonjs.com/documentation/drivers/rapiro/).
 - SSH innto Raspberry Pi
 - Add your ssh public key to `~/.ssh/authorized_keys`
 - From your host in project directory, `$ gulp rsync`
+
+## Face tracking
+
+### install OpenCV
+
+- 
